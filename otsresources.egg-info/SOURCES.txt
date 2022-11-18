@@ -1,0 +1,8 @@
+setup.py
+otsresources/__init__.py
+otsresources/autoflatten.py
+otsresources/funciones_api_mabrian.py
+otsresources.egg-info/PKG-INFO
+otsresources.egg-info/SOURCES.txt
+otsresources.egg-info/dependency_links.txt
+otsresources.egg-info/top_level.txt
