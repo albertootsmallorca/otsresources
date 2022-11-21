@@ -3,7 +3,7 @@ from pyspark.sql.types import *
 from pyspark.sql.functions import *
 
 #Flatten array of structs and structs 
-def flatten(df): 
+def flatten_json(df): 
     # compute Complex Fields (Lists and Structs) in Schema    
     complex_fields = dict([(field.name, field.dataType) 
                                 for field in df.schema.fields 
